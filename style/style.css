@@ -1,0 +1,302 @@
+
+/*GENERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{font-size: 32;}
+
+:root{
+    
+    --poppins:'Poppins', sans-serif;
+    
+}
+
+/*TEXTOS*/
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 180px;
+}
+
+h2{
+    font-family: var(--poppins);
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+h3{
+    font-family: var(--poppins);
+    font-size: 15px;
+    font-weight: 200;
+   text-align: center;
+}
+
+h4{
+    font-family: var(--poppins);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    
+}
+
+h5{
+    font-family: var(--poppins);
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: var(--poppins);
+    font-size: 20px;
+    color:black;
+    margin:20px;
+}
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+/*HEADER*/
+
+#portada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-grow: 1;
+
+}
+
+#cabecera{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+#portada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin-bottom: 50px;
+}
+
+#nombre{
+    margin-bottom: 50px;
+}
+
+#bienvenida{
+ margin: 20px;
+}
+
+#conocimientos{
+    width: 40%;
+}
+
+#atajos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+nav{
+    width: 100%;
+    margin: 30px;
+    
+}
+
+
+
+
+
+/*MAIN*/
+
+.nombres{
+    background-color:black;
+    height: auto;
+    width: 400px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px; 
+    
+}
+
+.entradas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+/*diseños editorial*/
+
+
+#reloj{
+    background-image: url(../img/prácticas/Cartel\ reloj.png);
+    background-size: cover;
+    height: 500px;
+    width: 49%;
+    margin: 5px;
+  
+    
+}
+
+
+#revista{
+    background-image: url(../img/prácticas/revista.png);
+    background-size: cover;
+    height: 500px;
+    width: 49%;
+    margin: 5px;
+}
+
+
+#cartel{
+    background-image: url(../img/prácticas/festival\ cine.png);
+    background-size: cover;
+    height: 500px;
+    width: 49%;
+    margin: 5px;
+}
+
+
+#mapa{
+    background-image: url(../img/prácticas/guia.png);
+    background-size: cover;
+    height: 500px;
+    width: 49%;
+    margin: 5px;
+}
+
+/*packaging*/
+
+#aceite{
+    background-image: url(../img/prácticas/aceite.png);
+    background-size: cover;
+    height: 500px;
+    width: 49%;
+    margin: 5px;
+}
+
+#caja{
+    background-image: url(../img/prácticas/caja.png);
+    background-size: cover;
+    height: 500px;
+    width: 49%;
+    margin: 5px;
+}
+
+/*foto*/
+#bodegon{
+    background-image: url(../img/prácticas/producto/planta\ horizontal.png);
+    background-size: cover;
+    height: 500px;
+    width: 49%;
+    margin: 5px;
+}
+
+#mesita{
+    background-image: url(../img/prácticas/producto/lampara.png);
+    background-size: cover;
+    height: 500px;
+    width: 49%;
+    margin: 5px;
+}
+
+/*video*/
+
+video{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+
+}
+
+#newskill {
+background-color: black;
+margin:10px;
+padding: 10px;
+}
+
+#wonders{
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*web*/
+
+#cine{
+    background-image: url(../img/prácticas/cine1.png);
+    background-size: cover;
+    height: 500px;
+    width: 49%;
+    margin: 5px;
+}
+
+#portfolio{
+    background-image: url(../img/prácticas/portfolio.png);
+    background-size: cover;
+    
+    height: 500px;
+    width: 49%;
+    margin: 5px;
+}
+
+
+/*FOOTER*/
+#redes{
+ 
+    height: 150px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+#redes >nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.enlaces{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+
+.enlaces >img{
+height: 30px;
+width: 30px;
+}
+
+
+
+
+
+
+
